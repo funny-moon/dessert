@@ -1,8 +1,27 @@
-/* common */
+/* 스킵메뉴 */
+#skip {
+  position: relative;
+}
+#skip a {
+  background: #000;
+  color: #fff;
+  padding: 20px 40px;
+  position: absolute;
+  top: 5px;
+  left: -400px;
+}
+#skip a:active,
+#skip a:focus {
+  left: 5px;
+}
+
+/* 컨테이너 */
 .container {
   width: 1160px;
   margin: 0 auto;
 }
+
+/* 섹션 요소 */
 .section {
   padding: 120px 0;
 }
@@ -21,4 +40,9 @@
 .section > span {
   display: block;
   text-align: center;
+}
+
+/* 폰트 */
+.nexon {
+  font-family: "NexonLv1Gothic";
 }
